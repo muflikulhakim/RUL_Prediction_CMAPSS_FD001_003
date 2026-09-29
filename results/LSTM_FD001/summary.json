@@ -1,0 +1,57 @@
+{
+  "summary_metrics": {
+    "primary_target": "RUL_clipped_125",
+    "secondary_target": "RUL_raw",
+    "primary_rmse": {
+      "mean": 14.209036827087402,
+      "std": 0.9389416651817616
+    },
+    "primary_mae": {
+      "mean": 10.252528953552247,
+      "std": 0.797564958802689
+    },
+    "primary_nasa_score": {
+      "mean": 457.9018035888672,
+      "std": 129.9171909745514
+    },
+    "primary_within_5": {
+      "mean": 0.394,
+      "std": 0.049035134795822104
+    },
+    "primary_within_10": {
+      "mean": 0.607,
+      "std": 0.045472824607426535
+    },
+    "primary_within_15": {
+      "mean": 0.754,
+      "std": 0.03238655413730968
+    },
+    "secondary_rmse": {
+      "mean": 15.278522777557374,
+      "std": 0.8176536862925575
+    },
+    "secondary_mae": {
+      "mean": 11.32240800857544,
+      "std": 0.7974297847717561
+    },
+    "secondary_nasa_score": {
+      "mean": 487.9524261474609,
+      "std": 126.71501007124765
+    }
+  },
+  "efficiency": {
+    "model_size_bytes_seed0": 226938,
+    "trainable_parameters": 55873,
+    "mean_training_time_sec": 13.737529039382935,
+    "mean_epochs_run": 14.2,
+    "cpu_latency_single_sample_ms": {
+      "median": 0.564957500159835,
+      "p95": 0.8764929498397576
+    },
+    "cpu_latency_full_batch_per_sample_ms": {
+      "median": 0.07234657500021058,
+      "p95": 0.08464647449932274
+    },
+    "cpu_threads": 1
+  }
+}
