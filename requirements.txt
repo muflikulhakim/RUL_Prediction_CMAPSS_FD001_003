@@ -1,0 +1,21 @@
+# ==============================================================================
+# Environment Requirements for Reproducibility
+# RUL Prediction on NASA C-MAPSS: XGBoost vs. LSTM (FD001 & FD003)
+# ==============================================================================
+
+# Core Libraries (from env.json)
+numpy==2.1.3
+pandas==2.2.3
+torch==2.11.0
+xgboost==3.4.1
+
+# Machine Learning & Scientific Computing
+scikit-learn
+scipy
+
+# Data Visualization & Output Formatting
+matplotlib
+tabulate
+
+# Environment & Interactive Notebooks
+jupyter

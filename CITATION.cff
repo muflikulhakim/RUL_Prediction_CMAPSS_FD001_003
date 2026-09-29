@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+type: software
+title: "RUL Prediction on NASA C-MAPSS: XGBoost vs. LSTM (FD001 & FD003)"
+version: "1.0.0"
+date-released: "2026-09-29"
+authors:
+  - family-names: "Hakim"
+    given-names: "Muflikhul"
+    affiliation: "UIN Maulana Malik Ibrahim Malang"
+    orcid: "https://orcid.org/0009-0002-6652-5603"
+repository-code: "https://github.com/muflikulhakim/RUL_Prediction_CMAPSS_FD001_003"
+doi: "10.5281/zenodo.23031016"  
+license: MIT
+keywords:
+  - remaining useful life
+  - predictive maintenance
+  - XGBoost
+  - LSTM
+  - C-MAPSS
+  - prognostics
+references:
+  - type: dataset
+    title: "Turbofan Engine Degradation Simulation Data Set"
+    authors:
+      - family-names: "Saxena"
+        given-names: "A."
+      - family-names: "Goebel"
+        given-names: "K."
+    year: 2008
+    institution:
+      name: "NASA Ames Prognostics Data Repository, NASA Ames Research Center"
